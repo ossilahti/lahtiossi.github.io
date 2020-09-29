@@ -6,6 +6,7 @@ body {
   font-weight: 300;
   font-size:16px;
   line-height: 1.7;
+  overflow-x: hidden; 
 }
 h1, h2, h3, h4, h5 {
   color: #fff;
@@ -63,10 +64,8 @@ h3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-
-  .ekasivu {
-      text-align: left;
+    vertical-align: middle;
+    image-rendering: optimizeQuality;
   }
 
 .resume-item {
@@ -87,7 +86,6 @@ h3 {
   color: #fff;
 }
 
-
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -101,6 +99,7 @@ h3 {
 .site-section {
   padding: 5em 0;
 }
+
 .mb-4, .my-4 {
   margin-bottom: 1.5rem !important;
   margin-right: 1.5rem !important;
@@ -141,7 +140,6 @@ section {
   font-weight: 800;
 }
 
-
 .align-items-center {
     -webkit-box-align: center !important;
     -ms-flex-align: center !important;
@@ -157,11 +155,6 @@ section {
   height: auto;
 }
 
-img {
-  vertical-align: middle;
-  image-rendering: optimizeQuality;
-}
-
 .mb-lg-0, .my-lg-0 {
   margin-bottom: 0 !important;
 }
@@ -171,13 +164,6 @@ img {
   -ms-flex: 0 0 58.33333%;
   flex: 0 0 58.33333%;
   max-width: 58.33333%;
-}
-  
-.col-lg-5 {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 41.66667%;
-  flex: 0 0 41.66667%;
-  max-width: 41.66667%;
 }
 
 .section-heading {
@@ -236,12 +222,6 @@ element {
   height: 944.766px;
 }
 
-element {
-  position: absolute;
-  left: 0%;
-  top: 0px;
-}
-
 .single-portfolio {
   margin-bottom: 50px;
   display: block;
@@ -258,7 +238,6 @@ element {
 .single-portfolio .relative {
   margin-bottom: 20px;
 }
-
 
 .image {
   width: 100%;
@@ -310,7 +289,6 @@ footer {
   text-decoration: none;
   letter-spacing: .2em;
 }
-
 
 .button {
   background-color: #0077b5;
